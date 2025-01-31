@@ -95,6 +95,7 @@ def juke_box():
         lista_jukebox.append(canzone1)
     if len(lista_jukebox) >= 10:
         print("Il Juke-box e' pieno")
+        lista_jukebox = tuple(lista_jukebox)
 
 def menu_bignami():
     while True:
